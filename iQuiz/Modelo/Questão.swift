@@ -166,18 +166,18 @@ let catalogoQuestoes: [Questao] = [
     )
 ]
 
-func sortearQuestoes(_ questoes: [Questao]) -> [Questao] {
-    guard questoes.count >= 10 else {
-        fatalError("O número de questões no array é inferior a 10.")
+var questoes: [Questao] = []
+
+func sortearQuestoes(_ questoes: inout [Questao], _ tamanhoQuestionario: Int) {
+    guard catalogoQuestoes.count >= tamanhoQuestionario else {
+        fatalError("O número de questões no array é inferior a \(tamanhoQuestionario).")
     }
     
-    var questoesSorteadas = questoes
+    var questoesSorteadas = catalogoQuestoes
     
     questoesSorteadas.shuffle()
     
-    let questoesSelecionadas = Array(questoesSorteadas.prefix(10))
+    let questoesSelecionadas = Array(questoesSorteadas.prefix(tamanhoQuestionario))
     
-    return questoesSelecionadas
+    questoes = questoesSelecionadas
 }
-
-let questoes: [Questao] = sortearQuestoes(catalogoQuestoes)

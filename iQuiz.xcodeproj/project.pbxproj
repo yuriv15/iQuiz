@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3BA38192BC0EB51005899EE /* DesempenhoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BA38182BC0EB51005899EE /* DesempenhoViewController.swift */; };
+		E3BA381E2BC10133005899EE /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BA381D2BC10133005899EE /* UIColor+.swift */; };
 		E3BD3FF92BBF95FA00586487 /* QuestaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BD3FF82BBF95FA00586487 /* QuestaoViewController.swift */; };
 		E3DD4BF52BBE397B00AB81B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD4BF42BBE397B00AB81B6 /* AppDelegate.swift */; };
 		E3DD4BF72BBE397B00AB81B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD4BF62BBE397B00AB81B6 /* SceneDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E3BA38182BC0EB51005899EE /* DesempenhoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesempenhoViewController.swift; sourceTree = "<group>"; };
+		E3BA381D2BC10133005899EE /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
 		E3BD3FF82BBF95FA00586487 /* QuestaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestaoViewController.swift; sourceTree = "<group>"; };
 		E3DD4BF12BBE397B00AB81B6 /* iQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DD4BF42BBE397B00AB81B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E3BA381A2BC0FFE4005899EE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E3DD4BF82BBE397B00AB81B6 /* ViewController.swift */,
+				E3BD3FF82BBF95FA00586487 /* QuestaoViewController.swift */,
+				E3BA38182BC0EB51005899EE /* DesempenhoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E3BA381B2BC10003005899EE /* Modelo */ = {
+			isa = PBXGroup;
+			children = (
+				E3FC80DC2BC0D8D700F64044 /* Questão.swift */,
+			);
+			path = Modelo;
+			sourceTree = "<group>";
+		};
+		E3BA381C2BC1011B005899EE /* Extensões */ = {
+			isa = PBXGroup;
+			children = (
+				E3BA381D2BC10133005899EE /* UIColor+.swift */,
+			);
+			name = "Extensões";
+			path = "Extensões";
+			sourceTree = "<group>";
+		};
 		E3DD4BE82BBE397B00AB81B6 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +91,15 @@
 		E3DD4BF32BBE397B00AB81B6 /* iQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				E3BA381C2BC1011B005899EE /* Extensões */,
+				E3BA381B2BC10003005899EE /* Modelo */,
+				E3BA381A2BC0FFE4005899EE /* ViewController */,
 				E3DD4BF42BBE397B00AB81B6 /* AppDelegate.swift */,
 				E3DD4BF62BBE397B00AB81B6 /* SceneDelegate.swift */,
-				E3DD4BF82BBE397B00AB81B6 /* ViewController.swift */,
 				E3DD4BFA2BBE397B00AB81B6 /* Main.storyboard */,
 				E3DD4BFD2BBE397C00AB81B6 /* Assets.xcassets */,
 				E3DD4BFF2BBE397C00AB81B6 /* LaunchScreen.storyboard */,
 				E3DD4C022BBE397C00AB81B6 /* Info.plist */,
-				E3BD3FF82BBF95FA00586487 /* QuestaoViewController.swift */,
-				E3FC80DC2BC0D8D700F64044 /* Questão.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -148,7 +179,9 @@
 				E3FC80DD2BC0D8D700F64044 /* Questão.swift in Sources */,
 				E3DD4BF52BBE397B00AB81B6 /* AppDelegate.swift in Sources */,
 				E3DD4BF72BBE397B00AB81B6 /* SceneDelegate.swift in Sources */,
+				E3BA38192BC0EB51005899EE /* DesempenhoViewController.swift in Sources */,
 				E3BD3FF92BBF95FA00586487 /* QuestaoViewController.swift in Sources */,
+				E3BA381E2BC10133005899EE /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
