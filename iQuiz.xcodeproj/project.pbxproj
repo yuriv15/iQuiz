@@ -14,6 +14,7 @@
 		E3DD4BFC2BBE397B00AB81B6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E3DD4BFB2BBE397B00AB81B6 /* Base */; };
 		E3DD4BFE2BBE397C00AB81B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3DD4BFD2BBE397C00AB81B6 /* Assets.xcassets */; };
 		E3DD4C012BBE397C00AB81B6 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E3DD4C002BBE397C00AB81B6 /* Base */; };
+		E3FC80DD2BC0D8D700F64044 /* Questão.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3FC80DC2BC0D8D700F64044 /* Questão.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E3DD4BFD2BBE397C00AB81B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3DD4C002BBE397C00AB81B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3DD4C022BBE397C00AB81B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FC80DC2BC0D8D700F64044 /* Questão.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Questão.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				E3DD4BFF2BBE397C00AB81B6 /* LaunchScreen.storyboard */,
 				E3DD4C022BBE397C00AB81B6 /* Info.plist */,
 				E3BD3FF82BBF95FA00586487 /* QuestaoViewController.swift */,
+				E3FC80DC2BC0D8D700F64044 /* Questão.swift */,
 			);
 			path = iQuiz;
 			sourceTree = "<group>";
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3DD4BF92BBE397B00AB81B6 /* ViewController.swift in Sources */,
+				E3FC80DD2BC0D8D700F64044 /* Questão.swift in Sources */,
 				E3DD4BF52BBE397B00AB81B6 /* AppDelegate.swift in Sources */,
 				E3DD4BF72BBE397B00AB81B6 /* SceneDelegate.swift in Sources */,
 				E3BD3FF92BBF95FA00586487 /* QuestaoViewController.swift in Sources */,
